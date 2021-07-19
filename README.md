@@ -1,24 +1,21 @@
 # y-drawer-calendar
 
-## Project setup
+## 描述
+> 基于element-plus drawer calendar 封装的移动端日历组件
+
+## 安装
 ```
-npm install
+npm install y-drawer-calendar -S
 ```
 
-### Compiles and hot-reloads for development
+### 使用
 ```
-npm run serve
+import yDrawerCalendar from 'y-drawer-calendar'
+
+export default {
+  components: {
+    yDrawerCalendar
+  }
+}
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,4 +1,6 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import YDrawerCalenDar from './YDrawerCalenDar'
 
-createApp(App).mount('#app')
+YDrawerCalenDar.install = (Vue) => {
+  Vue.component(YDrawerCalenDar.name, YDrawerCalenDar)
+}
+export default YDrawerCalenDar
